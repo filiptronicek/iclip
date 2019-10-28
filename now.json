@@ -5,6 +5,11 @@
       "src": "/(.*)",
       "status": 301,
       "headers": { "Location": "https://iclip.netlify.com/s/$1" }
+    },
+        {
+      "src": "/r/(.*)",
+      "status": 301,
+      "headers": { "Location": "https://iclip.netlify.com/r/$1" }
     }
   ]
 }
