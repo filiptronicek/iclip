@@ -4,7 +4,7 @@
     {
       "src": "/s/(.*)",
       "status": 200,
-      "headers": { "Location": "s.put.re/$1" }
+      "dist": "s.put.re/$1" 
     }
   ]
 }
