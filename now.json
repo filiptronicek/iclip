@@ -2,7 +2,7 @@
   "version": 2,
   "routes": [
     {
-      "src": "/(.*)",
+      "src": "/s/(.*)",
       "status": 301,
       "headers": { "Location": "https://iclip.netlify.com/s/$1" }
     },
