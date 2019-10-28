@@ -4,7 +4,7 @@
     {
       "src": "/s/(.*)",
       "status": 200,
-      "dist": "s.put.re/$1" 
+      "dest": "s.put.re/$1" 
     }
   ]
 }
