@@ -2,9 +2,9 @@
   "version": 2,
   "routes": [
     {
-      "src": "/s/(.*)",
-      "status": 200,
-      "dest": "s.put.re/$1" 
+      "src": "/(.*)",
+      "status": 301,
+      "headers": { "Location": "https://iclip.netlify.com/s/$1" }
     }
   ]
 }
