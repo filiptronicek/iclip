@@ -1,4 +1,10 @@
 {
   "version": 2,
-  "routes": [{ "src": "/(?<id>[^/]+)", "dest": "https://s.put.re/$id" }]
+  "routes": [
+    {
+      "src": "/s/(.*)",
+      "status": 200,
+      "headers": { "Location": "s.put.re/$1" }
+    }
+  ]
 }
