@@ -6,10 +6,15 @@
       "status": 301,
       "headers": { "Location": "https://iclip.netlify.com/s/$1" }
     },
-        {
+    {
       "src": "/r/(.*)",
       "status": 301,
       "headers": { "Location": "https://iclip.netlify.com/r/$1" }
+    },
+    {
+      "src": "/f/(.*)",
+      "status": 301,
+      "headers": { "Location": "https://drives.filiptronicek.workers.dev/3:/iclip/$1" }
     }
   ]
 }
